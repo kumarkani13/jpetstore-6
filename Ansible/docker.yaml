@@ -19,7 +19,7 @@
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
         username: kumarkani13
-        password: dckr_pat_jlWol06ONH8TjZqVD2AtkhJxB1c
+        password: dckr_pat_oArCrAIEtWXvByW5VovvFgQ7vHA
 
     - name: Push image
       command: docker push kumarkani13/Petstop project:latest
